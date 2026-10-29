@@ -74,7 +74,7 @@ These Terms are governed by the laws of Japan. The [XX District Court] has exclu
 
 ## 12. Contact
 
-- Operator: [Operator name]
-- Email: [Contact email address]
+- Operator: Kaito Kitaya
+- Email: kworkshere@gmail.com
 
 If there is any inconsistency between the Japanese and English versions of these Terms, the Japanese version prevails.
