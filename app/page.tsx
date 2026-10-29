@@ -1,24 +1,30 @@
 import Link from "next/link";
-import { LANGS, listPolicies, policyPath } from "@/lib/policies";
+import { KINDS, LANGS, documentPath, listDocuments, type Kind, type Lang } from "@/lib/documents";
 
-const HEADINGS = { ja: "日本語", en: "English" } as const;
+const HEADINGS: Record<Kind, Record<Lang, string>> = {
+  privacy: { ja: "プライバシーポリシー", en: "Privacy Policy" },
+  terms: { ja: "利用規約", en: "Terms of Use" },
+  support: { ja: "サポート", en: "Support" },
+};
 
 export default async function Home() {
   const groups = await Promise.all(
-    LANGS.map(async (lang) => ({ lang, policies: await listPolicies(lang) })),
+    KINDS.flatMap((kind) =>
+      LANGS.map(async (lang) => ({ kind, lang, docs: await listDocuments(kind, lang) })),
+    ),
   );
   return (
     <>
-      <h1>Privacy Policies</h1>
+      <h1>Documents</h1>
       {groups
-        .filter((g) => g.policies.length > 0)
-        .map(({ lang, policies }) => (
-          <section key={lang} lang={lang}>
-            <h2>{HEADINGS[lang]}</h2>
-            <ul className="policy-list">
-              {policies.map((p) => (
-                <li key={p.slug}>
-                  <Link href={policyPath(p.slug, lang)}>{p.title}</Link>
+        .filter((g) => g.docs.length > 0)
+        .map(({ kind, lang, docs }) => (
+          <section key={`${kind}-${lang}`} lang={lang}>
+            <h2>{HEADINGS[kind][lang]}</h2>
+            <ul className="doc-list">
+              {docs.map((d) => (
+                <li key={d.slug}>
+                  <Link href={documentPath(d.slug, kind, lang)}>{d.title}</Link>
                 </li>
               ))}
             </ul>

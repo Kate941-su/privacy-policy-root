@@ -54,7 +54,7 @@ pre code { padding: 0; }
 
 blockquote { margin: 0; padding: 0 1em; color: var(--muted); border-left: 4px solid var(--border); }
 
-.policy-list { padding-left: 1.2em; }
+.doc-list { padding-left: 1.2em; }
 
 .lang-switch { text-align: right; font-size: 0.9rem; }
 .lang-switch a + a { margin-left: 1em; }

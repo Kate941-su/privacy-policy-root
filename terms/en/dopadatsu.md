@@ -1,5 +1,5 @@
 ---
-title: No Dopamine Privacy Policy
+title: No Dopamine Terms of Use
 updatedAt: 2026-10-29
 ---
 
