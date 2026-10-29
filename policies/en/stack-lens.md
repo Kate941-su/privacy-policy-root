@@ -5,32 +5,7 @@ updatedAt: 2026-10-29
 
 # StackLens Privacy Policy
 
-スタックレンズ（StackLens、以下「本アプリ」）は、利用者のプライバシーを尊重し、次のとおり情報を取り扱います。
-
-### 1. 端末内で行う処理
-本アプリは、ホーム画面に表示されるアプリの一覧を取得し、その APK ファイルを解析して、使われているフレームワークやパッケージを判定します。これらの処理はすべて端末内で行います。インストール済みアプリの一覧や解析結果を、開発者を含む第三者に送信することはありません。解析結果は、再解析を速くするために端末内にのみ保存し、アプリをアンインストールすると削除されます。
-
-### 2. 外部との通信
-
-- Flutter のバージョン対応表を Google のサーバー（storage.googleapis.com）から取得します。利用者に関する情報は送信しません。
-
-- パッケージの詳細を表示するとき、パッケージ名だけを pub.dev（Google が運営）の公開 API に問い合わせます。
-
-- 記事リンクをタップすると、外部のブラウザで Zenn、Qiita、Reddit、Stack Overflow などを開きます。
-
-### 3. 広告
-無料版では Google AdMob による広告を表示します。AdMob は、広告の配信・効果測定・不正防止のために、広告 ID などの情報を収集する場合があります。詳しくは Google のポリシー（https://policies.google.com/technologies/ads）をご確認ください。欧州経済領域などでは、同意を得たうえで広告を表示します。同意の内容は設定画面から変更できます。
-
-### 4. アプリ内購入
-広告非表示の購入は Google Play を通じて処理されます。開発者が支払い情報を受け取ることはありません。
-
-### 5. 子どものプライバシー
-本アプリは 13 歳未満の子どもを対象としていません。
-
-### 6. お問い合わせ
-（連絡先メールアドレスを記入してください）
-
-## English
+StackLens (hereinafter referred to as "this app") respects user privacy and handles information as follows:
 
 ### 1. On-device processing
 StackLens lists the apps shown on your home screen and analyzes their APK files to identify frameworks and packages. All of this happens on your device. The list of installed apps and the analysis results are never sent to the developer or any third party. Results are cached on the device only, to speed up rescans, and are removed when you uninstall the app.
