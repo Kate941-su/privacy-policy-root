@@ -1,6 +1,11 @@
+---
+title: No Dopamine Privacy Policy
+updatedAt: 2026-10-29
+---
+
 # No Dopamine — Terms of Use
 
-Effective date: [Month DD, 2026]
+Effective date: [10 29, 2026]
 
 These Terms of Use ("Terms") govern your use of the mobile app "No Dopamine" (Japanese name: ドパ脱！, the "App") provided by [Operator name] ("we", "us"). By downloading or using the App, you agree to these Terms.
 
