@@ -25,4 +25,4 @@ The remove-ads purchase is processed by Google Play. The developer never receive
 StackLens is not directed at children under 13.
 
 ### 6. Contact
-(Add your contact email.)
+kworkshere@gmail.com
