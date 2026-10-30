@@ -1,4 +1,4 @@
- ---
+---
 title: No Dopamine Support
 updatedAt: 2026-10-29
 ---
