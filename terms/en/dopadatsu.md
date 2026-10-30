@@ -5,9 +5,9 @@ updatedAt: 2026-10-29
 
 # No Dopamine — Terms of Use
 
-Effective date: [10 29, 2026]
+Effective date: October 29, 2026
 
-These Terms of Use ("Terms") govern your use of the mobile app "No Dopamine" (Japanese name: ドパ脱！, the "App") provided by [Operator name] ("we", "us"). By downloading or using the App, you agree to these Terms.
+These Terms of Use ("Terms") govern your use of the mobile app "No Dopamine" (Japanese name: ドパ脱！, the "App") provided by Kaito Kitaya ("we", "us"). By downloading or using the App, you agree to these Terms.
 
 ## 1. What the App does
 
@@ -70,7 +70,7 @@ We may update these Terms when necessary. The updated Terms take effect when the
 
 ## 11. Governing law and jurisdiction
 
-These Terms are governed by the laws of Japan. The [XX District Court] has exclusive jurisdiction in the first instance over any dispute relating to the App.
+These Terms are governed by the laws of Japan. The district court having jurisdiction over the operator's place of residence has exclusive jurisdiction in the first instance over any dispute relating to the App.
 
 ## 12. Contact
 
