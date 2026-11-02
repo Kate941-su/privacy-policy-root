@@ -8,7 +8,7 @@ updatedAt: 2026-11-02
 Data Holder (hereinafter referred to as "this app") respects user privacy and handles information as follows:
 
 ### 1. On-device storage
-The information you enter or save in this app (field names and values of your vaults, data read from a passport, face photos, etc.) is stored only on your device. Field names and values are encrypted with a key generated on the device, and that key is protected by the device's secure storage (Android Keystore / iOS Keychain). This information is never sent to the developer or any third party. Uninstalling the app deletes the data on the device.
+The information you enter or save in this app (vault names, field names and values, folder names, tags, data read from a passport, face photos, etc.) is stored only on your device. Field names and values (including face photos) are encrypted with a key generated on the device, and that key is protected by the device's secure storage (Android Keystore / iOS Keychain). Vault names, folder names and tags are stored on the device without encryption. This information is never sent to the developer or any third party. Uninstalling the app deletes the data on the device.
 
 ### 2. Network access
 Except for cloud backup described below, this app does not connect to the internet. It uses no ads, analytics or crash reporting services.
@@ -31,7 +31,7 @@ To read the chip of a passport, the app uses the passport number, date of birth 
 Backup files you export from Settings are encrypted with a password you choose. You decide where to save or send the file; the developer never receives it.
 
 ### 6. Clipboard
-Copying a value puts it on your device's clipboard, where other apps on the device may be able to read it.
+Copying a value puts it on your device's clipboard, where other apps on the device may be able to read it. Copied values are cleared from the clipboard after 60 seconds (unless you copy something else in the meantime). On Android 13 and later, the value is hidden in the preview shown when you copy it. Due to OS limitations, the clipboard may not be cleared while the app is not running.
 
 ### 7. In-app purchase
 Pro purchases are processed by Google Play or the App Store. The developer never receives your payment details.

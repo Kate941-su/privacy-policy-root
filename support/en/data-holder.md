@@ -33,5 +33,11 @@ Backups are encrypted on your device, and the developer has neither your passwor
 - Check that the passport number, date of birth and date of expiry match the photo page.
 - Keep the passport still against the back of the phone until reading finishes (the face photo takes a few seconds).
 
+### A value I copied can no longer be pasted
+For safety, copied values are cleared from the clipboard after 60 seconds. Please copy it again. On Android, if the app is in the background when the time comes, anything you copied in another app during those 60 seconds may be cleared as well.
+
+### How do I use folders and tags?
+Folders and tags are available with Pro. Add them at the top of a vault's detail screen, then filter the vault list by folder or tag. Without Pro you can still see and remove folders and tags already assigned.
+
 ### How do I delete my data?
 Swipe a vault to the left in the vault list to delete it. Uninstalling the app deletes all data on the device.
