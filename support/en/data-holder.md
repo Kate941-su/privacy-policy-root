@@ -1,6 +1,6 @@
 ---
 title: Data Holder Support
-updatedAt: 2026-11-02
+updatedAt: 2026-11-04
 ---
 
 # Data Holder Support
@@ -38,6 +38,15 @@ For safety, copied values are cleared from the clipboard after 60 seconds. Pleas
 
 ### How do I use folders and tags?
 Folders and tags are available with Pro. Add them at the top of a vault's detail screen, then filter the vault list by folder or tag. Without Pro you can still see and remove folders and tags already assigned.
+
+### I bought Pro but it is not active, or I changed phones
+With the Google / Apple account you purchased with, open Settings → "Upgrade to Pro" → "Restore purchase".
+
+### How do I use app lock?
+App lock is available with Pro. Turn on "App lock" in Settings. Your device must have a screen lock. The app locks again if you return after 30 seconds or more in the background.
+
+### How do I export JSON or CSV?
+Available with Pro, from "Export as JSON or CSV" in Settings. These files are not encrypted. CSV files do not include face photos.
 
 ### How do I delete my data?
 Swipe a vault to the left in the vault list to delete it. Uninstalling the app deletes all data on the device.
