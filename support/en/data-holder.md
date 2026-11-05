@@ -1,6 +1,6 @@
 ---
 title: Data Holder Support
-updatedAt: 2026-11-04
+updatedAt: 2026-11-05
 ---
 
 # Data Holder Support
@@ -29,24 +29,20 @@ Export a backup file from Settings → "Export backup", then load it on the new 
 Backups are encrypted on your device, and the developer has neither your password nor your data. A backup cannot be restored without its password.
 
 ### My passport cannot be read
+Passport reading is an Android feature. It is not currently offered in the iOS version.
+
 - Make sure NFC is turned on in your device settings.
 - Check that the passport number, date of birth and date of expiry match the photo page.
 - Keep the passport still against the back of the phone until reading finishes (the face photo takes a few seconds).
 
-### A value I copied can no longer be pasted
-For safety, copied values are cleared from the clipboard after 60 seconds. Please copy it again. On Android, if the app is in the background when the time comes, anything you copied in another app during those 60 seconds may be cleared as well.
-
-### How do I use folders and tags?
-Folders and tags are available with Pro. Add them at the top of a vault's detail screen, then filter the vault list by folder or tag. Without Pro you can still see and remove folders and tags already assigned.
-
 ### I bought Pro but it is not active, or I changed phones
-With the Google / Apple account you purchased with, open Settings → "Upgrade to Pro" → "Restore purchase".
+With the Apple Account you purchased with, open Settings → "Upgrade to Pro" → "Restore purchase". Pro is not currently sold in the Android version.
 
 ### How do I use app lock?
-App lock is available with Pro. Turn on "App lock" in Settings. Your device must have a screen lock. The app locks again if you return after 30 seconds or more in the background.
+App lock is free. Turn on "App lock" in Settings and set a password. Turn on "Unlock with biometrics" to also unlock with Face ID or a fingerprint. The app locks when it starts and when you return after 30 seconds or more in the background.
 
-### How do I export JSON or CSV?
-Available with Pro, from "Export as JSON or CSV" in Settings. These files are not encrypted. CSV files do not include face photos.
+### I forgot my app lock password
+The developer cannot recover it. Reinstalling the app removes the lock, but erases your vaults. If you have a backup, you can restore it after reinstalling.
 
 ### How do I delete my data?
 Swipe a vault to the left in the vault list to delete it. Uninstalling the app deletes all data on the device.
