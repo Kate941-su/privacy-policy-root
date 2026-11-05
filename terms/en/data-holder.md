@@ -1,6 +1,6 @@
 ---
 title: Data Holder Terms of Use
-updatedAt: 2026-11-04
+updatedAt: 2026-11-05
 ---
 
 # Data Holder Terms of Use
@@ -12,7 +12,7 @@ These Terms of Use (the "Terms") set out the conditions for using "Data Holder" 
 ## Article 1 (About the App)
 
 1. The App is a tool for keeping information such as logins, the details of identity documents and notes encrypted on your device.
-2. On devices with NFC, the App can read and keep the information recorded on the chip of a passport.
+2. On Android devices with NFC, the App can read and keep the information recorded on the chip of a passport. This is not currently offered in the iOS version.
 3. The App's check of a chip's authenticity is for reference only. The App is not intended for official identity verification or for judging whether an identity document is genuine.
 
 ## Article 2 (Conditions of use)
@@ -31,15 +31,15 @@ These Terms of Use (the "Terms") set out the conditions for using "Data Holder" 
 ## Article 4 (Paid features)
 
 1. Some features of the App ("Pro") are available through an in-app purchase (one-time). The price is the amount shown in the store at the time of purchase.
-2. Pro includes theme colors, unlimited vaults, folders and tags, app lock, and JSON / CSV export. The number of vaults you can keep for free is limited. Data already saved beyond the limit can be viewed and edited without buying Pro.
-3. Purchases, payments and refunds follow the terms and procedures of Apple (App Store) or Google (Google Play). The Operator does not issue refunds directly.
-4. When you change devices, use "Restore purchases" in the App with the same Apple ID / Google account to use Pro again.
+2. Pro includes premium theme colors and unlimited vaults. The number of vaults you can keep for free is limited. Data already saved beyond the limit can be viewed and edited without buying Pro.
+3. Purchases, payments and refunds follow the terms and procedures of Apple (App Store). Pro is not currently sold in the Android version. The Operator does not issue refunds directly.
+4. When you change devices, use "Restore purchase" in the App with the same Apple Account to use Pro again.
 5. The contents of Pro may change for improvement. However, the Operator will not remove the main features available to purchasers without a reasonable cause.
 
-## Article 5 (App lock and export)
+## Article 5 (App lock)
 
-1. App lock uses the device's authentication. You are responsible for managing your device and its screen lock.
-2. JSON / CSV export files are not encrypted. You are responsible for managing the files you export.
+1. App lock is an optional free feature that uses a password you set and the device's biometric authentication. You are responsible for managing the password and your device.
+2. If you forget the password, the Operator cannot recover it. Reinstalling the App removes the lock, but erases your vaults.
 
 ## Article 6 (Prohibited acts)
 

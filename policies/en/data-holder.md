@@ -1,6 +1,6 @@
 ---
 title: Data Holder Privacy Policy
-updatedAt: 2026-11-04
+updatedAt: 2026-11-05
 ---
 
 # Data Holder Privacy Policy
@@ -18,12 +18,12 @@ The App handles the data you save **only on your device**. The Developer does no
 To provide its features, the App stores the following on your device:
 
 - Vault names, field names and values
-- Folder names and tags
 - Data read from a passport that you choose to save (name, nationality, date of birth, passport number, face photo, etc.)
-- Display settings (theme color, etc.) and the app lock setting
+- Display settings (theme color, etc.)
+- App lock settings (on or off, whether biometrics are used, the number of failed password attempts, and a hash of the password)
 - Whether Pro has been purchased
 
-Field names and values (including face photos) are encrypted with a key generated on the device, and that key is protected by the device's secure storage (Android Keystore / iOS Keychain). Vault names, folder names and tags are stored on the device without encryption.
+Field names and values (including face photos) are encrypted with a key generated on the device, and that key is protected by the device's secure storage (Android Keystore / iOS Keychain). Vault names are stored on the device without encryption. The app lock password itself is not stored; only a hash that is hard to reverse (PBKDF2) is kept in the device's secure storage.
 
 This information is not sent to the Developer's servers or to third parties. The Developer cannot see it.
 
@@ -41,18 +41,22 @@ Except for cloud backup in section 8, the App does not connect to the internet. 
 
 ## 5. Reading passports (NFC)
 
+This feature is offered in the Android version. It is not currently offered in the iOS version.
+
 To read the chip of a passport, the App uses the passport number, date of birth and date of expiry you enter. They are used only to open the chip and are not saved. Data read from the chip is stored on the device as described in section 2 only if you choose to save it. The chip is checked for authenticity on the device with certificates bundled in the App.
 
 ## 6. App lock
 
-App lock authentication (face, fingerprint, device PIN, etc.) is performed by the device's operating system. The App receives only whether authentication succeeded; it never receives or stores biometric data or your PIN.
+App lock is optional and free. You unlock the App with a password you set or with biometrics.
 
-## 7. Export and sharing
+- Biometric authentication (Face ID, Touch ID, fingerprint, etc.) is performed by the device's operating system. The App receives only whether authentication succeeded; it never receives or stores biometric data.
+- The password and its hash are never sent to the Developer or to third parties.
+- If you forget the password, the Developer cannot recover it. Reinstalling the App removes the lock, but erases your vaults.
+- App lock protects what is shown on screen. Field names and values are encrypted as described in section 2 whether or not the lock is on.
 
-Exports create a file only when you ask for one and hand it to the device's share feature. You choose where it goes, and its handling after that follows the terms of the service you share it with. The Developer never receives these files.
+## 7. Exporting and sharing backups
 
-- **Backup**: encrypted with a password you choose.
-- **JSON / CSV**: **not encrypted**. Anyone who obtains the file can read its contents, so please handle it with care. The temporary file created on the device for sharing is deleted on the next launch or the next export.
+Backup export creates a file only when you ask for one and hands it to the device's share feature. The file is encrypted with a password you choose. You choose where it goes, and its handling after that follows the terms of the service you share it with. The Developer never receives these files.
 
 ## 8. Cloud backup (optional, Pro)
 
@@ -68,18 +72,17 @@ This section applies from the version that provides cloud backup. The feature wo
 
 ## 9. Clipboard
 
-Copying a value puts it on your device's clipboard, where other apps on the device may be able to read it. Copied values are cleared from the clipboard after 60 seconds (unless you copy something else in the meantime). On Android 13 and later, the value is hidden in the preview shown when you copy it. Due to OS limitations, the clipboard may not be cleared while the App is not running.
+Copying a value puts it on your device's clipboard, where other apps on the device may be able to read it. The App does not clear the clipboard automatically. When you no longer need the value, overwrite it, for example by copying something else.
 
 ## 10. In-app purchase
 
-Pro purchases and restores are processed through the payment systems of Apple Inc. (App Store) or Google LLC (Google Play). Each company handles payment and account information under its own privacy policy, and the Developer never receives it. The App receives only whether the purchase was completed.
+Pro purchases and restores are processed through the payment system of Apple Inc. (App Store). Pro is not currently sold in the Android version. Apple handles payment and account information under its own privacy policy, and the Developer never receives it. The App receives only whether the purchase was completed.
 
 - Apple Privacy Policy: https://www.apple.com/legal/privacy/
-- Google Privacy Policy: https://policies.google.com/privacy
 
 ## 11. Deleting data
 
-Data is erased by deleting it in the App or by deleting the App from your device. The Developer holds no data, so there is nothing for the Developer to delete or disclose.
+Vault data is erased by deleting it in the App or by deleting the App from your device. On iOS, the encryption key and the hash of the app lock password may remain in the Keychain after the App is deleted. The Developer holds no data, so there is nothing for the Developer to delete or disclose.
 
 ## 12. Children
 
